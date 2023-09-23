@@ -1,6 +1,6 @@
 import { BrowserRouter as Router } from "react-router-dom";
 import {
-  About,
+  AboutSection,
   Contact,
   Experience,
   Feedbacks,
@@ -18,7 +18,7 @@ const App = () => (
         <Navbar />
         <Hero />
       </div>
-      <About />
+      <AboutSection />
       <Experience />
       <Tech />
       <Works />
